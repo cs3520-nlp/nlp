@@ -47,7 +47,7 @@ train = learning_features[:1000]
 test = learning_features[1000:]
 
 model = nltk.NaiveBayesClassifier.train(train) 
-print("Model accuracy percent:",(nltk.classify.accuracy(model, test))*100)
+#print("Model accuracy percent:",(nltk.classify.accuracy(model, test))*100)
 #model.show_most_informative_features(15)
 
 def sent_function(text):
