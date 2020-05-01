@@ -1,6 +1,11 @@
 import nltk
 import random 
-import pickle
+
+#
+# file: sentTopic.py
+# objective: train a Naive Bayes Classifier 
+# on a predefined corpus--'movie reviews' 
+#
 
 
 from nltk.corpus import movie_reviews as mr 
@@ -8,12 +13,14 @@ from nltk.tokenize import word_tokenize as wd_split
 from nltk.stem import WordNetLemmatizer
 
 
-
+#extract each sentence in movie reviews
+#tag each sentence with either positive or negative
 documents = []
 for category in mr.categories():
     for id in mr.fileids(category): 
         documents.append((list(mr.words(id)), category))
-        
+    
+#shuffle positive and negative documents
 random.shuffle(documents) 
 
 every_word = [] 
