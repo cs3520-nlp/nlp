@@ -1,6 +1,7 @@
 # nlp
 
-# sentTopic.py
+#Citations 
+ sentTopic.py
  Some code inspired by:
  Harrison Kinsley (PythonProgramming.net)
  Article name: Creating a module for Sentiment Analysis with NLTK
@@ -9,14 +10,14 @@
  https://pythonprogramming.net/sentiment-analysis-module-nltk-tutorial/
  https://pythonprogramming.net/words-as-features-nltk-tutorial/
 
-# topicModel.py
+ topicModel.py
  Some code inspired by:
  Selva Prabhakaran (Machine Learning Plus)
  Article name: Gensim Tutorial – A Complete Beginners Guide
  Python 
  https://www.machinelearningplus.com/nlp/gensim-tutorial/
 
-# topicModel.py
+ topicModel.py
  Some code inspired by:
  Susan Li (Medium)
  Article name: Topic Modeling and Latent Dirichlet Allocation (LDA) in Python
