@@ -1,6 +1,8 @@
 # nlp
 
-#Citations 
+#Citations
+
+
  sentTopic.py
  Some code inspired by:
  Harrison Kinsley (PythonProgramming.net)
