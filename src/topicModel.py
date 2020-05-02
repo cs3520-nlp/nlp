@@ -20,16 +20,16 @@ from nltk.stem.porter import *
 #
 
 #define useful variables
-dir = 'text_files/'
+text_files_dir = 'text_files'
 stop_words = set(stopwords.words('english'))
-files = (file for file in os.listdir(dir))
+files = (file for file in os.listdir(text_files_dir))
 non_acceptable_types = ['CC', 'EX', 'IN', 'WRB', 'MD',]
 
 #function tokenizes files by sentence
 def create_documents():
     documents = []
     for file in files:
-        text = open(os.path.join(dir, file), 'r').read()
+        text = open(os.path.join(text_files_dir, file), 'r').read()
         sentences = sent_tokenize(text)
 
         for s in sentences:
@@ -40,7 +40,7 @@ def create_documents():
 #and tokenizes by sentence
 def create_documents_file(file):
     documents = []
-    text = open(os.path.join(dir, file), 'r').read()
+    text = open(os.path.join(text_files_dir, file), 'r').read()
     sentences = sent_tokenize(text)
 
     for s in sentences:
