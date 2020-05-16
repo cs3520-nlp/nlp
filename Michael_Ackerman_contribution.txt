@@ -1,0 +1,36 @@
+Contributions:
+
+
+* Research
+    * Originally did research into finding python libraries that would convert
+      language into first order logic, as well as sentiment analysis using the
+      VADER module from the NLTK library. This route was ultimately abandonded
+      as some of the libraries I found to convert text (and grammars) to first
+      order logic were buggy and/or abandonded.
+
+
+* Presentation
+    * Prepared and presented the project demonstration, added text descriptions
+      to the ipython notebook to
+
+* Code
+    * Implemented the management and saving (to disk) of trained models and preprocessed
+      data via pickling. This allowed just 1 person with a fast machine (me) to
+      run all the training, and other team members can just load the pretrained model directly,
+      and start interacting with the models immediately.
+        * All saved models/preprocessed data can be found in the pickled directory.
+    * Created notebook files to do experimentation on Topic Modeling.
+        * See topic_modeling_75.ipynb and topic_modeling300.ipynb (75 and 300 topics generateted
+          respectively)
+    * git commits:
+        * too many commits to list, see https://github.com/cs3520-nlp/nlp/commits/master for
+          a list of commits made by the group.
+    * also did minor debugging and fixes, as well as resovling merge conflicts, and helped with
+      some git related tasks.
+
+* Experimentation and Analysis
+    * Experimented with Topic Modeling, ran the LDA model with multiple input paramaters
+      to find a set of paramters that provided good results. (300 topics with lambda value of .4
+      works very well, see the report)
+    * Worked on the Topic Modeling portion of the Experimentation and Analysis portion
+      of the report.
