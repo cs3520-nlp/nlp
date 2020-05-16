@@ -2,6 +2,8 @@
 
 This project aims to be able to use the concept of topic modeling to make an expert system that can predict a population's sentiment towards different movie descriptions. Our model uses [50k IMDB movie reviews](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews/activity) as its corpus.
 
+* Note: **old_src** shows our initial work on this project, but it is not a part of the final program.
+
 # How to Run:
  
 In order to run our code, clone our repository and run **LDA_SA_Movie_Reviews_FINAL.ipynb** using Jupyter Notebook.
