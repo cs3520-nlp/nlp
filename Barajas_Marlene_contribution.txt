@@ -1,0 +1,13 @@
+* Presentation
+	* assembled most of the slides (everything except slide 9)
+
+
+* Code
+	* implemented the full, preliminary version of our expert system and final source code
+		* helped Michael with setting this up so that he could further experiment with the model
+	* implemented the sentiment analysis portion of our expert system
+
+
+* Final Paper
+	* I directly contributed to every section in the Final Research Report, sections that are solely my writing
+	include: Background, Introduction, Concepts, Results, Future Work, and Conclusion
