@@ -1,0 +1,37 @@
+--------------------------
+FINAL SOURCE CODE:
+--------------------------
+LDA_SA_Movie_Reviews_FINAL.ipynb
+Some code inspired by:
+https://github.com/susanli2016/NLP-with-Python/blob/master/LDA_news_headlines.ipynb
+Papers referenced:
+[1] Baccianella, S., Esuli, A., & Sebastiani, F. (2010, May). Sentiwordnet 3.0: an enhanced lexical resource for sentiment analysis and opinion mining. In Lrec (Vol. 10, No. 2010, pp. 2200-2204).
+[2] Bird, Steven, Edward Loper and Ewan Klein (2009), Natural Language Processing with Python. O’Reilly Media Inc.
+[3] Rehurek, Radim and Petr Sojka (2010), Software Framework for Topic Modelling with Large Corpora. ELRA. (Page 45-50).
+[4] Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Christopher Potts. (2011). Learning Word Vectors for Sentiment Analysis. The 49th Annual Meeting of the Association for Computational Linguistics (ACL 2011).
+[5] M. S. Incorporated, “Data Mining Explained,” MicroStrategy. [Online]. Available: https://www.microstrategy.com/us/resources/introductory-guides/data-mining-explained. 
+[6] T. Doll, “LDA Topic Modeling,” Medium, 11-Mar-2019. [Online]. Available: https://towardsdatascience.com/lda-topic-modeling-an-explanation-e184c90aadcd.
+[7] V. Sasikumar, “Natural Language Processing - Topic modelling (including latent Dirichlet allocation-LDA &...,” Medium, 01-Mar-2019. [Online]. Available: https://medium.com/@vivekvscool/natural-language-processing-topic-modelling-including-latent-dirichlet-allocation-lda-860e5a3d377f.
+[8] “Topic Analysis,” MonkeyLearn, 27-Jan-2020. [Online]. Available: https://monkeylearn.com/topic-analysis/.
+
+--------------------------
+OLD SOURCE CODE:
+--------------------------
+sentTopic.py
+Some code inspired by:
+Harrison Kinsley (PythonProgramming.net) Article name: Creating a module for Sentiment Analysis with NLTK Article name: Converting words to Features with NLTK Python
+https://pythonprogramming.net/sentiment-analysis-module-nltk-tutorial/ https://pythonprogramming.net/words-as-features-nltk-tutorial/
+
+topicModel.py
+Some code inspired by:
+Selva Prabhakaran (Machine Learning Plus) Article name: Gensim Tutorial – A Complete Beginners Guide Python
+https://www.machinelearningplus.com/nlp/gensim-tutorial/
+
+topicModel.py
+Some code inspired by:
+Susan Li (Medium) Article name: Topic Modeling and Latent Dirichlet Allocation (LDA) in Python
+https://towardsdatascience.com/topic-modeling-and-latent-dirichlet-allocation-in-python-9bf156893c24
+
+sentiment.py
+Simple example found from the NLTK documentation
+https://www.nltk.org/howto/sentiment.html
